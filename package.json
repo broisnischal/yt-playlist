@@ -1,0 +1,31 @@
+{
+  "name": "playlist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/log-update": "^3.1.0",
+    "boxen": "^7.0.2",
+    "chalk": "^5.2.0",
+    "child-process": "^1.0.2",
+    "figlet": "^1.5.2",
+    "fluent-ffmpeg": "^2.1.2",
+    "fluent-ffmpeg-multistream": "^1.0.0",
+    "fs-extra": "^11.1.0",
+    "log-symbols": "^5.1.0",
+    "log-update": "^5.0.1",
+    "nodemon": "^2.0.21",
+    "ora": "^6.1.2",
+    "slugify": "^1.6.5",
+    "stream": "^0.0.2",
+    "ytdl-core": "^4.11.2",
+    "ytpl": "^2.3.0"
+  }
+}
