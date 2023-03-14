@@ -1,5 +1,6 @@
 // import fs from "node:fs";
 import logUpdate from "log-update";
+import path from "path";
 
 // setImmediate(() => {
 //   console.log("Set Immediate runs last!");
@@ -40,3 +41,8 @@ import logUpdate from "log-update";
 //   const frame = frames[i++ % frames.length];
 //   logUpdate(frame);
 // }, 200);
+
+const argv = process.argv.slice(2);
+
+// root dir
+console.log(path.join(process.cwd(), argv[0]));
