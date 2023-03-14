@@ -1,16 +1,25 @@
 {
-  "name": "yt-playlist",
+  "name": "ypld",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A tool to download whole playlist at",
+  "main": "bin/index.js",
   "type": "module",
-  "scripts": {
-    "dev": "nodemon index.js"
+  "bin": {
+    "ypld": "bin/index.js",
+    "download-playlist": "bin/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {},
+  "keywords": [
+    "youtube",
+    "playlist",
+    "youtube-playlist-downloader",
+    "asyncDownload",
+    "download"
+  ],
+  "author": "neeswebservice <neeswebservice@gmail.com> (https://nischal-dahal.com.np)",
   "license": "ISC",
   "dependencies": {
+    "@types/log-symbols": "^3.0.0",
     "@types/log-update": "^3.1.0",
     "boxen": "^7.0.2",
     "chalk": "^5.2.0",
@@ -21,11 +30,21 @@
     "fs-extra": "^11.1.0",
     "log-symbols": "^5.1.0",
     "log-update": "^5.0.1",
-    "nodemon": "^2.0.21",
     "ora": "^6.1.2",
     "slugify": "^1.6.5",
     "stream": "^0.0.2",
     "ytdl-core": "^4.11.2",
     "ytpl": "^2.3.0"
+  },
+  "preferGlobal": true,
+  "files": [
+    "LICENSE",
+    "bin/"
+  ],
+  "homepage": "https://github.com/neeswebservices/yt-playlist",
+  "bugs": "https://github.com/neeswebservices/yt-playlist/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neeswebservices/yt-playlist.git"
   }
 }

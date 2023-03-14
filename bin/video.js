@@ -1,7 +1,7 @@
 import fs from "fs";
 import ytdl from "ytdl-core";
 import Ffmpeg from "fluent-ffmpeg";
-import ora from "ora";
+// import ora from "ora";
 import slugify from "slugify";
 import path from "path";
 // const url = "https://www.youtube.com/watch?v=UD2dZw9iHCc&ab_channel=FunFunFunction";
